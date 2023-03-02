@@ -1,6 +1,12 @@
 h2 {
     color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120PX;
+    font-style: italic;
 }
 body {
-    background: #06a1f5;
-  }
+    background: #78caff;
+}
+p {
+    font-family: 'Golos Text', sans-serif;
+}
