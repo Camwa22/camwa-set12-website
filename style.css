@@ -7,6 +7,11 @@ h2 {
 body {
     background: #78caff;
 }
+#about img {
+    width: 45vh;
+    height: 45vh;
+    border: none;
+}
 p, ol {
     font-family: 'Golos Text', sans-serif;
 }
@@ -29,4 +34,7 @@ footer img {
     width: 2vh;
     height: 2vh;
     border: none;
+   }
+footer {
+    display: inline-block;
 }
