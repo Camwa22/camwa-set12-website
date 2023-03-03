@@ -47,7 +47,11 @@ li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
-
+main {
+    padding: 3.5em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 h2 {
     color: whitesmoke;
     font-family: 'Bebas Neue', cursive;
@@ -58,11 +62,26 @@ body {
     background: #78caff;
 }
 #intro {
-    position: static;
-    display: flex;
-    flex-direction: column;
-    left: 1em;
-    top: 5m;
+    float: right;
+    display: inline-block;
+    /*flex-direction: column;*/
+    /*right: 5.5em;*/
+    /*top: 25vh;*/
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width: 800px;
+    /*height: 100px;*/
+    margin: 0px;
+}
+#introt, #introb {
+    color: black;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: lighter;
+}
+#about, #skills {
+    float: bottom;
 }
 #about img {
     width: 45vh;
@@ -87,8 +106,8 @@ h3 {
     position: fixed;
     display: flex;
     flex-direction: column;
-    right: 1em;
-    top: 10vh;
+    left: 3.5em;
+    top: 17.5vh;
 }
 .container {
     border: 2px dotted transparent;
@@ -110,4 +129,5 @@ footer img {
    }
 footer {
     display: inline-block;
+    clear: both;
 }
