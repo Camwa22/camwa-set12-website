@@ -1,12 +1,27 @@
 h2 {
     color: whitesmoke;
     font-family: 'Bebas Neue', cursive;
-    font-size: 120PX;
+    font-size: 100PX;
     font-style: italic;
 }
 body {
     background: #78caff;
 }
-p {
+p, ol {
     font-family: 'Golos Text', sans-serif;
+}
+h3 {
+    color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50PX;
+    font-style: italic;
+}
+#links img {
+    width: 6.5vh;
+    height: 6.5vh;
+    border: none;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
