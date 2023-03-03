@@ -7,6 +7,13 @@ h2 {
 body {
     background: #78caff;
 }
+#intro {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    left: 1em;
+    top: 5m;
+}
 #about img {
     width: 45vh;
     height: 45vh;
@@ -25,6 +32,22 @@ h3 {
     width: 6.5vh;
     height: 6.5vh;
     border: none;
+}
+#links {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 1em;
+    top: 10vh;
+}
+.container {
+    border: 2px dotted transparent;
+}
+.container {
+    overflow: auto;
+    text-align: center;
+    padding: 0.1vh;
+    margin-bottom: 3vh;
 }
 img {
     overflow-clip-margin: content-box;
