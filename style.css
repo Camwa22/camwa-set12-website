@@ -50,7 +50,6 @@ ul {
 }
 li {
     display: list-item;
-    text-align: -webkit-match-parent;
 }
 main {
     padding: 3.5em;
