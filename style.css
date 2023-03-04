@@ -1,3 +1,8 @@
+body, html {
+    height: 100%;
+    min-height: 100%;
+    background: #78caff;
+}
 header {
     box-sizing: border-box;
     border-bottom: 10px;
@@ -58,9 +63,6 @@ h2 {
     font-size: 100PX;
     font-style: italic;
 }
-body {
-    background: #78caff;
-}
 main {
     display: flex;
     flex-direction: column;
@@ -89,12 +91,28 @@ main {
     font-weight: lighter;
 }
 #about, #skills {
-    float: bottom;
+    display: flexbox;
+    flex-direction: column;
+    float: left;
+    width: 100%;
 }
 #about img {
+    position: block;
+    top: 0px;
+    right: 200px;
+    float: right;
     width: 45vh;
     height: 45vh;
     border: none;
+    margin: 0px 0px 0px 20px;
+}
+#about #dynamite {
+    /*display: inline-block;*/
+    float: left;
+    width: 5vh;
+    height: 5vh;
+    border: none;
+    margin: 0px 0px 0px 150px;
 }
 p, ol {
     font-family: 'Golos Text', sans-serif;
