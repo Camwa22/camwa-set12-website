@@ -117,12 +117,32 @@ main {
     right: 715px;
 }
 #h2about {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 0px;
     margin-bottom: 0px;
 
 }
-p, ol {
+#h2skills {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+ol {
+    --icon-space: 0.5em;
+    list-style: none;
+    padding: 0;
+}
+.material-symbols-outlined {
+    padding-right: 15px;
+}
+li {
+    margin-bottom: 0px;
+}
+ol {
+    font-family: 'Golos Text', sans-serif;
+    margin: 50px 5px 15px 0px;
+}
+p {
     font-family: 'Golos Text', sans-serif;
     margin: 15px 5px 15px 0px;
 }
