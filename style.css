@@ -61,18 +61,26 @@ h2 {
 body {
     background: #78caff;
 }
-#intro {
+main {
+    display: flex;
+    flex-direction: column;
+}
+#intro h4 {
     float: right;
-    display: inline-block;
-    /*flex-direction: column;*/
-    /*right: 5.5em;*/
-    /*top: 25vh;*/
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 80px;
+    padding-bottom: 25px;
     width: 800px;
-    /*height: 100px;*/
+    height: 0px;
     margin: 0px;
 }
+#intro h2 {
+    float: right;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    width: 800px;
+    height: 0px;
+    margin: 0px;
+}    
 #introt, #introb {
     color: black;
     font-family: 'Golos Text', sans-serif;
