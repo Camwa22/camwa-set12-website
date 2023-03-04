@@ -61,7 +61,12 @@ h2 {
     color: whitesmoke;
     font-family: 'Bebas Neue', cursive;
     font-size: 100PX;
+}
+#introname {
     font-style: italic;
+}
+#h2about, #h2skills {
+    font-style: normal;
 }
 main {
     display: flex;
@@ -90,7 +95,7 @@ main {
     font-style: normal;
     font-weight: lighter;
 }
-#about, #skills {
+#about {
     display: flexbox;
     flex-direction: column;
     float: left;
@@ -122,9 +127,20 @@ main {
     margin-bottom: 0px;
 
 }
+#skills {
+    display: flexbox;
+    flex-direction: row;
+    float: left;
+    width: 100%;
+}
 #h2skills {
     padding-top: 100px;
     padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h3 {
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 ol {
@@ -140,7 +156,7 @@ li {
 }
 ol {
     font-family: 'Golos Text', sans-serif;
-    margin: 50px 5px 15px 0px;
+    margin: 0px 5px 15px 0px;
 }
 p {
     font-family: 'Golos Text', sans-serif;
@@ -182,7 +198,21 @@ footer img {
     height: 2vh;
     border: none;
    }
+footer img {
+    padding-right: 12px;
+}
+#footer {
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 footer {
-    display: inline-block;
-    clear: both;
+    border-top: 2px;
+    border-color: blue;
+    border-width: 5px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: dashed;
 }
