@@ -104,18 +104,25 @@ main {
     width: 45vh;
     height: 45vh;
     border: none;
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 65px;
 }
 #about #dynamite {
-    /*display: inline-block;*/
-    float: left;
-    width: 5vh;
-    height: 5vh;
+    position: absolute;
+    display: inline-block;
+    float: right;
+    width: 4vh;
+    height: 4vh;
     border: none;
-    margin: 0px 0px 0px 150px;
+    top: 752px;
+    right: 715px;
+    /*margin: 0px 0px 300px 270px;*/
+    /*padding-right: 70px;*/
+    /*padding-bottom: 10px;*/
+    /*padding-inline-end: 0px;*/
 }
 p, ol {
     font-family: 'Golos Text', sans-serif;
+    margin: 15px 5px 15px 0px;
 }
 h3 {
     color: whitesmoke;
