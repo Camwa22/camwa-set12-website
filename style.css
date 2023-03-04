@@ -63,6 +63,8 @@ h2 {
     font-size: 100PX;
 }
 #introname {
+    animation-name: fadeBounce;
+    animation-duration: 1s;
     font-style: italic;
 }
 #h2about, #h2skills {
@@ -241,4 +243,29 @@ footer {
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  @keyframes fadeBounce {
+
+    0% {
+        opacity: 0;
+        transform: translateY(-200%);
+    }
+    40% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    55% {
+        transform: translateY(-6px);
+    }
+    70% {
+        transform: translateY(0);
+    }
+    85% {
+        transform: translateY(-3px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
   }
